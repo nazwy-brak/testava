@@ -307,3 +307,61 @@ body .carousel-control-next-icon {
 @media (min-width: 1200px) {
     body { font-size: 26px !important; }
 }
+
+
+
+
+
+/* bajery z scss i czyszczenie strony html */
+
+
+
+
+.inicjatywy-page {
+  @extend .container; // Środkowanie i marginesy Bootstrapa dla całej strony
+  @extend .mt-5;      // Górny margines z Bootstrapa
+  
+  h1 {
+    @extend .mb-5;
+    @extend .text-center; // Wyśrodkowanie głównego tytułu
+  }
+
+  // Celujemy we wszystkie sekcje wewnątrz tego kontenera
+  section {
+    @extend .row;        // Każda sekcja staje się wierszem siatki
+    @extend .mb-5;       // Odstęp między inicjatywami
+    @extend .align-items-center; // Centrowanie logotypu w pionie względem tekstu
+    
+    // Pudełko na logo (odpowiednik col-lg-4)
+    .media-box {
+      @extend .col-lg-4;
+      @extend .text-center;
+      
+      img {
+        @extend .img-fluid; // Responsywny obrazek z Bootstrapa
+        @extend .mx-auto;   // Środkowanie loga
+        max-height: 180px;  // Opcjonalne zabezpieczenie, żeby loga były równe
+      }
+    }
+
+    // Pudełko na tekst (odpowiednik col-lg-8)
+    .content-box {
+      @extend .col-lg-8;
+      
+      h2 {
+        @extend .h3; // Zmniejszamy wizualnie h2 do h3, żeby wyglądało zgrabniej
+      }
+
+      p {
+        @extend .text-justify; // Ładne wyrównanie tekstu (opcjonalnie)
+      }
+
+      a {
+        @extend .btn;
+        @extend .btn-outline-primary; // Robimy z linku elegancki przycisk Bootstrapa
+        @extend .btn-sm;
+        @extend .mt-2;
+      }
+    }
+  }
+}
