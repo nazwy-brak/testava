@@ -1,0 +1,17 @@
+:root {
+  --primary: #006890;
+  --secondary: #64646e;
+  --accent: #ffa469;
+
+  --text: #323232;
+  --text-muted: #64646e;
+
+  --background: #ffffff;
+  --surface: #f0f0f0;
+
+  --border: #ddd;
+  --shadow: #888888;
+
+  --white: #ffffff;
+  --black: #000000;
+}

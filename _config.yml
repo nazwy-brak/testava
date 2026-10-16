@@ -1,0 +1,20 @@
+# Konfiguracja Jekylla
+title: "Avangarda - Wersja Testowa"
+description: "Nowa wersja strony internetowej Avangarda"
+
+# Kluczowe ustawienie dla GitHub Pages działającego w podfolderze!
+# Wpisz tutaj nazwę, jaką ma repozytorium na GitHubie.
+baseurl: "/testava"
+
+# Ustawienia przetwarzania plików
+markdown: kramdown
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Wykluczamy niepotrzebne pliki:
+exclude:
+  - ava-backup.css
+  - stopka.php
+  - formularz.pdf

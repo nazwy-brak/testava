@@ -1,0 +1,286 @@
+/*bazowe style tekstowe*/
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+body {
+	margin:0;
+    font-family: 'Hind', sans-serif !important;
+	font-weight: 300;
+    padding-top: 4rem;
+    font-size: 48px !important;
+}
+body p {
+    font-size: 0.925em;
+    line-height: 130%;
+    color:#64646e;
+	font-weight: 300;
+}
+body p strong {
+    font-weight: 600;
+    color:#006890;
+}
+body a {
+    color: inherit;
+    text-decoration: underline;
+}
+body p a:hover {
+	color: #006890;
+}
+
+body li {
+	font-size: 0.925em;
+	line-height: 130%;
+	color:#64646e;
+	font-weight: 300;
+}
+
+.row h1, section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+	color:#323232;
+    text-align: center;
+    font-size: 1.66em;
+    line-height: 100%;
+    margin-top: 3.75rem;
+}
+
+.ava_kv h1 {
+    color: white;
+    margin:0;
+}
+
+.row h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    text-align: left;
+    font-size: 1.2em;
+	margin-top: 4rem;
+    margin-bottom: 0.5em;
+	color:#006890;
+}
+
+.row h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1em;
+	margin-top: 2rem;
+	margin-bottom: 0.5em;
+	color: #006890;
+}
+
+
+/*elementy i ikony */
+.ava_ozdobnik {
+	margin: auto;    
+    display: block;
+	margin-bottom:1em;
+	}
+.ava_fullwidth {
+	width:100%;	
+}
+.ava_sekcja {
+	border-bottom: solid 1px #006890;
+	padding-bottom: 4rem;
+}
+.ava_cta_1 {
+	background-image: url("img/cta_1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+.ava_cta_2 {
+	background-color:#f0f0f0;
+	}
+.ava_stopka {
+	background-color:#323232;
+	padding-top:2rem;
+
+}
+.ava_stopka p {
+	color:#ffffff;
+    margin: 0;
+/*	text-align:center;*/
+
+}
+.ava_stopka p strong {
+	color:#ffffff;
+
+}
+body .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2364646e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+body .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2364646e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.modal-body p {
+	font-size: 1em;
+	line-height: 120%;
+}
+.ava_kalendarz{
+	min-height:20em;
+}
+
+/*batony */
+.btn.ava_baton {
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: #ffffff;
+	background-color: #006890;
+	font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+	font-size: 0.9em;
+	border-radius: 0;
+
+}
+.btn.ava_baton:hover {
+	box-shadow: 5px 5px 10px #888888;
+	background-color: #ffa469;
+}
+.btn.ava_baton a {
+	text-decoration:none;
+
+}
+.btn.ava_baton a:hover {
+	text-decoration:none;
+	color: #ffffff;
+
+}
+/* donacja essego */
+.donation-form .btn-success {
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: #ffffff;
+	background-color: #006890;
+	font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+	font-size: 0.9em;
+	border-radius: 0;
+	
+	}
+.donation-input-group {
+	width:100%;
+	margin-bottom:1em;
+	}
+
+.donation-input-group input {
+	Width:auto;
+	display:inline-block;
+	font-size:2em;
+	font-family: 'Hind', sans-serif !important;
+	font-weight: 300;
+	color:#64646e;
+	max-width:50%;
+	text-align:right;
+	
+	}
+.input-group-addon {
+	display:inline-block;
+	margin-left:1em;
+	font-size:1.5em;
+	color:#64646e;
+	}
+
+
+/* nawigacja */
+.ava_navbar{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	border-bottom: 2px solid #006890;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.navbar.ava_navbar {
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+}
+
+.navbar-light.ava_navbar .navbar-nav .nav-link {
+	font-size: 0.6em;
+	color: #323232;
+	text-decoration: none;
+}
+
+.navbar-light.ava_navbar .navbar-nav .active .nav-link {
+	color: #006890;
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: #006890!important;
+	
+}
+
+/* wysokość górnego navbara (Bootstrap 4: 56px) */
+:root {
+    --top-nav-height: 56px; /* dolny navbar przyklejony pod górnym */
+}  
+.subnav { 
+    position: sticky; 
+    top: var(--top-nav-height); 
+    z-index: 1020; /* nad treścią, pod górnym navem */ 
+    background-color: #f8f9fa;  
+    border-bottom: 1px solid #ddd; 
+}
+
+
+
+
+/*naglowek */
+.ava_kv {
+	background-image: url("img/kv.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* ciasteczke  */
+#cookie{
+	background-color: #fafafa;
+	color: #606060;
+	padding: 2rem;
+	position: fixed;
+	bottom: 0;
+}
+#cookie_wrapper{
+	margin: 0 auto;
+	text-align: justify;
+}
+#cookie_header{
+	text-align: right;
+}
+#cookie_header a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/* wysokość stopki też 56 px */
+footer {
+/*    height:56px;*/
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        font-size: 24px !important;
+    }
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 26px !important;
+    }
+}
